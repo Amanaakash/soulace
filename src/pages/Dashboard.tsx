@@ -100,49 +100,67 @@ const Dashboard: React.FC = () => {
                 {/* Peer Support - Top */}
                 <Link
                   to="/peer-support"
-                  className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 w-16 h-16 bg-blue-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-2 w-16 h-16 bg-blue-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <MessageCircle className="w-8 h-8 text-white" />
+                  <span className="absolute -bottom-10 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Peer Support
+                  </span>
                 </Link>
 
                 {/* Professional Help - Right */}
                 <Link
                   to="/professional-help"
-                  className="absolute right-0 top-1/2 transform translate-x-2 -translate-y-1/2 w-16 h-16 bg-purple-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-purple-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute right-0 top-1/2 transform translate-x-2 -translate-y-1/2 w-16 h-16 bg-purple-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-purple-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <Stethoscope className="w-8 h-8 text-white" />
+                  <span className="absolute top-1/2 -left-32 transform -translate-y-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Professional Help
+                  </span>
                 </Link>
 
                 {/* Mood Tracker - Bottom */}
                 <Link
                   to="/mood-tracker"
-                  className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 w-16 h-16 bg-green-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-green-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-2 w-16 h-16 bg-green-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-green-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <TrendingUp className="w-8 h-8 text-white" />
+                  <span className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Mood Tracker
+                  </span>
                 </Link>
 
                 {/* Mindfulness - Left */}
                 <Link
                   to="/mindfulness"
-                  className="absolute left-0 top-1/2 transform -translate-x-2 -translate-y-1/2 w-16 h-16 bg-pink-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-pink-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute left-0 top-1/2 transform -translate-x-2 -translate-y-1/2 w-16 h-16 bg-pink-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-pink-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <Heart className="w-8 h-8 text-white" />
+                  <span className="absolute top-1/2 -right-28 transform -translate-y-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Mindfulness
+                  </span>
                 </Link>
 
                 {/* Community - Top Right */}
                 <Link
                   to="/community"
-                  className="absolute top-8 right-8 w-12 h-12 bg-orange-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-orange-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute top-8 right-8 w-12 h-12 bg-orange-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-orange-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <Users className="w-6 h-6 text-white" />
+                  <span className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Community
+                  </span>
                 </Link>
 
                 {/* Emergency - Top Left */}
                 <Link
                   to="/emergency"
-                  className="absolute top-8 left-8 w-12 h-12 bg-red-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600/80 transition-all duration-200 border border-white/30"
+                  className="absolute top-8 left-8 w-12 h-12 bg-red-500/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600/80 transition-all duration-200 border border-white/30 group"
                 >
                   <AlertTriangle className="w-6 h-6 text-white" />
+                  <span className="absolute top-full mt-2 left-1/2 transform -translate-x-1/2 bg-gray-900 text-white text-xs px-3 py-1 rounded-full whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+                    Emergency
+                  </span>
                 </Link>
               </div>
             </div>
@@ -150,9 +168,9 @@ const Dashboard: React.FC = () => {
 
           {/* Bottom Action Buttons */}
           <div className="absolute bottom-6 left-6 right-6 flex gap-4">
-            <button className="flex-1 bg-blue-500/80 backdrop-blur-sm text-white py-3 px-6 rounded-full font-medium hover:bg-blue-600/80 transition-all duration-200 border border-white/30">
+            <Link to="/mood-assessment" className="flex-1 bg-blue-500/80 backdrop-blur-sm text-white py-3 px-6 rounded-full font-medium hover:bg-blue-600/80 transition-all duration-200 border border-white/30 text-center">
               Know your mood 😊
-            </button>
+            </Link>
             <button className="flex-1 bg-purple-500/80 backdrop-blur-sm text-white py-3 px-6 rounded-full font-medium hover:bg-purple-600/80 transition-all duration-200 border border-white/30">
               Read Jokes 😂
             </button>

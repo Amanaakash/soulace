@@ -6,6 +6,7 @@ import Dashboard from './pages/Dashboard';
 import PeerSupport from './pages/PeerSupport';
 import ProfessionalHelp from './pages/ProfessionalHelp';
 import MoodTracker from './pages/MoodTracker';
+import MoodAssessment from './pages/MoodAssesment';
 import Mindfulness from './pages/Mindfulness';
 import Community from './pages/Community';
 import Emergency from './pages/Emergency';
@@ -22,6 +23,7 @@ function App() {
           <Route path="/peer-support" element={<Layout><PeerSupport /></Layout>} />
           <Route path="/professional-help" element={<Layout><ProfessionalHelp /></Layout>} />
           <Route path="/mood-tracker" element={<Layout><MoodTracker /></Layout>} />
+          <Route path="/mood-assessment" element={<Layout><MoodAssessment /></Layout>} />
           <Route path="/mindfulness" element={<Layout><Mindfulness /></Layout>} />
           <Route path="/community" element={<Layout><Community /></Layout>} />
           <Route path="/emergency" element={<Layout><Emergency /></Layout>} />

@@ -25,9 +25,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navigation = [
     { name: 'Dashboard', href: '/dashboard', icon: Grid3X3 },
+    { name: 'Mood Assessment', href: '/mood-assessment', icon: TrendingUp },
     { name: 'Peer Support', href: '/peer-support', icon: MessageCircle },
     { name: 'Professional Help', href: '/professional-help', icon: Stethoscope },
-    { name: 'Mood Tracker', href: '/mood-tracker', icon: TrendingUp },
+    { name: 'Mood Tracker', href: '/mood-tracker', icon: Heart },
     { name: 'Mindfulness', href: '/mindfulness', icon: Heart },
     { name: 'Community', href: '/community', icon: Users },
     { name: 'Emergency', href: '/emergency', icon: AlertTriangle },

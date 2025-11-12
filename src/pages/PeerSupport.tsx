@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { MessageCircle, Heart, Users, Send, Smile, Volume2, Video, Clock } from 'lucide-react';
 
 const PeerSupport: React.FC = () => {
@@ -263,7 +264,11 @@ const PeerSupport: React.FC = () => {
           </p>
         </div>
       )}
-
+      <div className='text-center'>
+        <Link to="/mood-assessment" className="inline-block bg-blue-500/80 backdrop-blur-sm text-white py-3 px-6 rounded-full font-medium hover:bg-blue-600/80 transition-all duration-200 border border-white/30">
+          Know your mood 😊
+        </Link>
+      </div>
       {/* Safety Guidelines */}
       <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-6 border border-yellow-200">
         <h3 className="text-lg font-semibold text-gray-900 mb-3">Safety Guidelines</h3>
