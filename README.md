@@ -10,7 +10,7 @@
 
 **A comprehensive mental health platform that provides anonymous peer support, professional help, mood tracking, and mindfulness resources in a safe, judgment-free environment.**
 
-[Live Demo](#) • [Report Bug](https://github.com/Amanaakash/soulace/issues) • [Request Feature](https://github.com/Amanaakash/soulace/issues)
+[Live Demo](https://soulace.vercel.app/) • [Report Bug](https://github.com/Amanaakash/soulace/issues) • [Request Feature](https://github.com/Amanaakash/soulace/issues)
 
 </div>
 
