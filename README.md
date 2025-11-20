@@ -307,7 +307,7 @@ Access our Emergency page for immediate support and resources.
 
 ## 👨‍💻 Author
 
-**Aman Akash**
+**TEAM 8848**
 - GitHub: [@Amanaakash](https://github.com/Amanaakash)
 - Project: [SoulAce](https://github.com/Amanaakash/soulace)
 
